@@ -23,7 +23,7 @@ SMILE = sprites.create(img`
     . . f f f f f . . 
     `, SpriteKind.Player)
 tiles.placeOnTile(SMILE, tiles.getTileLocation(1, 5))
-SMILE.ay = 500
+SMILE.ay = 600
 game.onUpdateInterval(2000, function () {
     Barrel = sprites.createProjectileFromSide(img`
         .....6feeeeeeeeeef6.....
